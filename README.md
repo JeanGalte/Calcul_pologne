@@ -1,6 +1,6 @@
 # Calcul pologne
 
-A calculator for NPI notation (See https://en.wikipedia.org/wiki/Polish_notation)
+A calculator for NPI notation (See https://en.wikipedia.org/wiki/Polish_notation), fully written in ocaml
 
 
 Available features :
