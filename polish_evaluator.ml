@@ -3,7 +3,6 @@ open String
 open List
 open Char
 open Float
-open Printf
 
 exception BadExp of string 
 exception UnkwnownOp of string
