@@ -5,7 +5,7 @@ A calculator for NPI notation (See https://en.wikipedia.org/wiki/Polish_notation
 
 Available features :
 
-- Most common operations (Binaries : ["+";"-";"/";"*"] Unaries :["NEG";"SIN";"COS";"TAN";"COSH";"SINH";"TANH";"ARCSIN";"ARCOS";"ARCTAN";"EXP";"LN";"LOG10";"SQRT"]) 
+- Most common operations (Binaries : ["+";"-";"/";"*";"pow"] Unaries :["NEG";"SIN";"COS";"TAN";"COSH";"SINH";"TANH";"ARCSIN";"ARCOS";"ARCTAN";"EXP";"LN";"LOG10";"SQRT"]) 
 
 - Constants (Pi and e)
 
