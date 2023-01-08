@@ -23,7 +23,7 @@ module SS4 = Set.Make(String)
 
 let chiffres = SS1.of_list ['0';'1';'2';'3';'4';'5';'6';'7';'8';'9'] 
 let constantes = SS2.of_list ["pi";"e"]
-let binop = SS3.of_list ["+";"-";"/";"*"] 
+let binop = SS3.of_list ["+";"-";"/";"*";"POW"] 
 let unop = SS4.of_list ["NEG";"SIN";"COS";"TAN";"COSH";"SINH";"TANH";"ARCSIN";"ARCOS";"ARCTAN";"EXP";"LN";"LOG10";"SQRT"] 
 
 (* Dictionnaires eco+ *)
@@ -38,7 +38,7 @@ let unop = SS4.of_list ["NEG";"SIN";"COS";"TAN";"COSH";"SINH";"TANH";"ARCSIN";"A
 
 let assoc_un (s : string) : unaire=
 	match s with
-	| "NEG" -> fun (x : symbole) : symbole -> ( -. ) 0. x 
+	| "NEG" -> ( -. ) 0. 
 	| "SIN" -> Float.sin
 	| "COS" -> Float.cos
 	| "TAN" -> Float.tan
